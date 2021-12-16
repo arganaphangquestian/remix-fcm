@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Bakso",
+    "amount": 15000,
+    "user": {
+      "id": 1,
+      "name": "John Doe"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mie Ayam",
+    "amount": 18000,
+    "user": {
+      "id": 2,
+      "name": "Lucas"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Teh Sisri",
+    "amount": 5000,
+    "user": {
+      "id": 3,
+      "name": "Marcus"
+    }
+  }
+]

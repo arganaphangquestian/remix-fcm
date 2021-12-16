@@ -1,0 +1,26 @@
+@SERVER_KEY=
+### Send Notification
+POST https://fcm.googleapis.com/fcm/send
+Authorization: key={{SERVER_KEY}}
+Content-Type: application/json
+
+{
+	"to": "",
+	"priority": "high",
+  "notification": {
+    "title": "New transaction",
+    "body": "Here is a new transaction from mock server"
+  },
+  "data": {
+    "type": "ADD_TRANSACTION",
+    "body": {
+      "id": 33,
+      "name": "Chatem",
+      "amount": 23000,
+      "user": {
+        "id": 13,
+        "name": "Arga"
+      }
+    }
+  }
+}
